@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+http.get( '${1:url}' ).then( function ( data ) {
+${2:}
+}, function ( err ) {
+
+} )
+]]></content>
+	<tabTrigger>htg</tabTrigger>
+	<scope>source.js</scope>
+	<description>$http.get</description>
+</snippet>
