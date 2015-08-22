@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$http.get( '${1:url}' ).then( function ( data ) {
+\$http.get( ${1:url} ).then( function ( data ) {
 	$2
 }, function ( err ) {
 	$0
