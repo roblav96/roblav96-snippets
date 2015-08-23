@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+md-button class="pad-lr" ng-click="href('$1')">
+    <div layout="row" layout-align="center center">
+        <i class="material-icons btn-icon">$2</i>
+        <span>$0</span>
+    </div>
+</md-button>
+]]></content>
+	<tabTrigger>mdbi</tabTrigger>
+	<scope>text.html</scope>
+	<description>md-button with icon</description>
+</snippet>

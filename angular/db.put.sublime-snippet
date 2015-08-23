@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+server.db.${0:database name}.put( data, function ( err ) {
+	if ( err ) {
+		return res.send( 400, err )
+	}
+
+	return res.send( true )
+} )
+]]></content>
+	<tabTrigger>dbp</tabTrigger>
+	<scope>source.js</scope>
+	<description>db.put</description>
+</snippet>

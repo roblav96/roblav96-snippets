@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\$http.post( ${1:url}, {
+	${2:data}
+} ).then( function ( data ) {
+	$3
+}, function ( err ) {
+	$0
+} )
+]]></content>
+	<tabTrigger>htp</tabTrigger>
+	<scope>source.js</scope>
+	<description>$http.post</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+.state( '${1:state}', {
+	url: "${2:url}",
+	templateUrl: '${3:template}.html',
+	data: {
+		stateToolName: "____"
+	},
+	controller: '${0:ctrl}'
+} )
+]]></content>
+	<tabTrigger>scon</tabTrigger>
+	<scope>source.js</scope>
+	<description>.state-config</description>
+</snippet>

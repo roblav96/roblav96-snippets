@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+eyes.inspect( ${0:data}, "${1:label}" )
+]]></content>
+	<tabTrigger>insp</tabTrigger>
+	<scope>source.js</scope>
+	<description>eyes.inspect</description>
+</snippet>

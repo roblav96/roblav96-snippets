@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+i class="material-icons">$0</i>
+]]></content>
+	<tabTrigger>mdi</tabTrigger>
+	<scope>text.html</scope>
+	<description>md-icon</description>
+</snippet>

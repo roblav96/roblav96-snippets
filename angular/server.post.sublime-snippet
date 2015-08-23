@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+server.post( '${0:url}', function ( req, res ) {
+	var data = req.body.data
+
+	return res.send( "true" )
+
+} )
+]]></content>
+	<tabTrigger>spost</tabTrigger>
+	<scope>source.js</scope>
+	<description>server.post</description>
+</snippet>

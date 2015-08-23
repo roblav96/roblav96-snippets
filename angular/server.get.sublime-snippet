@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+server.get( '${0:url}', function ( req, res ) {
+
+	return res.send( "true" )
+
+} )
+]]></content>
+	<tabTrigger>sget</tabTrigger>
+	<scope>source.js</scope>
+	<description>server.get</description>
+</snippet>
