@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+return res.send(${1:data})
+$0
+]]></content>
+	<tabTrigger>ress</tabTrigger>
+	<scope>source.js</scope>
+	<description>response send</description>
+</snippet>

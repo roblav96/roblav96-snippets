@@ -1,14 +1,15 @@
 <snippet>
     <content><![CDATA[
-server.db.${0:database name}.put( data, function ( err ) {
+server.db.${1:database}.put( ${2:data}, function ( err ) {
 	if ( err ) {
+		console.error( err )
 		return res.send( 400, err )
 	}
-
-	return res.send( true )
+	$0
+	return res.send( false )
 } )
 ]]></content>
 	<tabTrigger>dbp</tabTrigger>
 	<scope>source.js</scope>
-	<description>db.put</description>
+	<description>put into database</description>
 </snippet>

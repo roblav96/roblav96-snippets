@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.log( JSON.stringify( ${1:obj}, true, 4 ) )
+]]></content>
+	<tabTrigger>clj</tabTrigger>
+	<scope>source.js</scope>
+	<description>console.log JSON object</description>
+</snippet>

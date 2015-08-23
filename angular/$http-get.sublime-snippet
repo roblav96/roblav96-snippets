@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 \$http.get( ${1:url} ).then( function ( data ) {
-	$2
+	console.log( JSON.stringify( data, true, 4 ) )
 }, function ( err ) {
-	$0
+	console.log( err )
 } )
 ]]></content>
 	<tabTrigger>htg</tabTrigger>

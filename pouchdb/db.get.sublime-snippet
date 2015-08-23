@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+server.db.${1:database}.get( ${2:_id}, function ( err, doc ) {
+	if ( err ) {
+		console.error( err )
+		return res.send( 400, err )
+	}
+
+	eyes.inspect( doc, "${2:_id}.doc" )
+	$0
+	return res.send( false )
+} )
+]]></content>
+	<tabTrigger>dbg</tabTrigger>
+	<scope>source.js</scope>
+	<description>get from database</description>
+</snippet>

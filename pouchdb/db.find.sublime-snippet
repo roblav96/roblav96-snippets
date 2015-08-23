@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+server.db.${1:database}.find( {
+	selector: {
+		${2:index}: {
+			$eq: ${3:data}
+		}
+	}
+}, function ( err, result ) {
+	if ( err ) {
+		console.log( err )
+		return res.send( 400, err )
+	}
+
+	console.log( result )
+	$0
+	return res.send( false )
+} )
+]]></content>
+	<tabTrigger>dbf</tabTrigger>
+	<scope>source.js</scope>
+	<description>find in database</description>
+</snippet>
