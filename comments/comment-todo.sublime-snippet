@@ -3,11 +3,9 @@
 /**
 
 	TODO:
-	- ${1:First todo item}
-	- ${2:Second todo item}
+	- ${0:First todo item}
 
  */
-
 ]]></content>
 	<tabTrigger>comm-todo</tabTrigger>
 	<description>Comment - To-do list</description>

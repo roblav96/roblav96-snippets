@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-eyes.inspect( ${1:data}, "${1:label}" )
+inspect( ${1:data}, "${1:label}" )
 ]]></content>
 	<tabTrigger>insp</tabTrigger>
 	<scope>source.js</scope>
