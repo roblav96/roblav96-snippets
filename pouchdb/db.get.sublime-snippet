@@ -6,7 +6,7 @@ server.db.${1:database}.get( ${2:_id}, function ( err, doc ) {
 		return res.send( 400, err )
 	}
 
-	eyes.inspect( doc, "${2:_id}.doc" )
+	inspect( doc, "${2:_id}.doc" )
 	$0
 	return res.send( false )
 } )

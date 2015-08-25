@@ -6,13 +6,13 @@ server.db.${1:database}.find( {
 			$eq: ${3:data}
 		}
 	}
-}, function ( err, result ) {
+}, function ( err, doc ) {
 	if ( err ) {
 		console.log( err )
 		return res.send( 400, err )
 	}
 
-	console.log( result )
+	inspect( doc, "doc" )
 	$0
 	return res.send( false )
 } )
