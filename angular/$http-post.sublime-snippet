@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-\$http.post( ${1:url}, {
-	${2:data}
-} ).then( function ( data ) {
-	$3
-}, function ( err ) {
+\$http.post( ${1:url}, { ${2:data} ).then( function ( data ) {
+
+	console.log( data )
 	$0
+}, function ( err ) {
+	console.log( err )
 } )
 ]]></content>
 	<tabTrigger>htp</tabTrigger>
