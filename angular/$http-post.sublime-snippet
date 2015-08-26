@@ -5,7 +5,7 @@
 	console.log( res )
 	$0
 } ).error( function ( err ) {
-	console.log( err )
+	console.error( err )
 } )
 ]]></content>
 	<tabTrigger>htp</tabTrigger>

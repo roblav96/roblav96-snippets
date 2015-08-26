@@ -1,9 +1,11 @@
 <snippet>
     <content><![CDATA[
-\$http.get( ${1:url} ).then( function ( data ) {
-	console.log( JSON.stringify( data, true, 4 ) )
-}, function ( err ) {
-	console.log( err )
+\$http.get( ${1:url} ).success( function ( res ) {
+
+	console.log( res )
+	$0
+} ).error( function ( err ) {
+	console.error( err )
 } )
 ]]></content>
 	<tabTrigger>htg</tabTrigger>
