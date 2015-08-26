@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-\$http.post( ${1:url}, { ${2:data} ).then( function ( data ) {
+\$http.post( ${1:url}, ${2:data} ).success( function ( res ) {
 
-	console.log( data )
+	console.log( res )
 	$0
-}, function ( err ) {
+} ).error( function ( err ) {
 	console.log( err )
 } )
 ]]></content>
