@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
 /**
-
 	TODO:
-	- ${0:First todo item}
-
+	- ${0:todo item}
  */
 ]]></content>
 	<tabTrigger>comm-todo</tabTrigger>
