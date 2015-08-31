@@ -3,8 +3,8 @@
 /**
 	TODO:
 	- ${0:todo item}
- */
+**/
 ]]></content>
-	<tabTrigger>comm-todo</tabTrigger>
+	<tabTrigger>comt</tabTrigger>
 	<description>Comment - To-do list</description>
 </snippet>
