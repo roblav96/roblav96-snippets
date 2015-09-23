@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-confirm('${1:msg}');
+confirm('${1:msg}')
 ]]></content>
 	<tabTrigger>co</tabTrigger>
 	<scope>source.js</scope>

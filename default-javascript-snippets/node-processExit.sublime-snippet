@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-process.exit(${1:code});
+process.exit(${1:code})
 ]]></content>
 	<tabTrigger>pe</tabTrigger>
 	<scope>source.js</scope>

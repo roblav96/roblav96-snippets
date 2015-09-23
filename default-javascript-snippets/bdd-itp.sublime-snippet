@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-it('${1:description}');
+it('${1:description}')
 ]]></content>
 	<tabTrigger>itp</tabTrigger>
 	<scope>source.js</scope>
