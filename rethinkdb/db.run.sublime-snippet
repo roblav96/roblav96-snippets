@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[run().then( function ( doc ) {
+	inspect( doc, "doc" )
+} ).error( function ( err ) {
+	console.error( err )
+	return res.send( 500, err )
+} )
+]]></content>
+	<tabTrigger>run</tabTrigger>
+	<scope>source.js</scope>
+	<description>run RethinkDB query</description>
+</snippet>
