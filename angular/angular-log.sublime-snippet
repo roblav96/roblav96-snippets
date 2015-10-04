@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.log( ${1:obj}, StackTrace.get() )
+]]></content>
+	<tabTrigger>cla</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular.log</description>
+</snippet>
