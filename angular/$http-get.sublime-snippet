@@ -1,11 +1,9 @@
 <snippet>
     <content><![CDATA[
-\$http.get( ${1:url} ).success( function ( res ) {
+\$http.get( g_IP + "${1:url}" ).success( function ( res ) {
 
 	console.log( res )
 	$0
-} ).error( function ( err ) {
-	console.error( err )
 } )
 ]]></content>
 	<tabTrigger>htg</tabTrigger>

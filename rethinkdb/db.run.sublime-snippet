@@ -2,8 +2,8 @@
     <content><![CDATA[run().then( function ( doc ) {
 	inspect( doc, "doc" )
 } ).error( function ( err ) {
-	console.error( err )
-	return res.send( 500, err )
+	console.error( err.message )
+	return res.send( 500, err.message )
 } )
 ]]></content>
 	<tabTrigger>run</tabTrigger>
