@@ -1,15 +1,14 @@
 <snippet>
     <content><![CDATA[
-server.db.${1:database}.put( ${2:data}, function ( err ) {
-	if ( err ) {
-		console.error( err )
-		return res.send( 400, err )
-	}
-	$0
-	return res.send( false )
+pdb.${1:database}.put( ${2:_id} ).then( function ( doc ) {
+	inspect( doc, "${2:_id}.doc" )
+	clipboard.copy( "doc: " + JSON.stringify( ${2:_id}, true, 4 ) )
+} ).catch( function ( err ) {
+	server.error = err
+	return server.resSend( res )
 } )
 ]]></content>
-	<tabTrigger>dbp</tabTrigger>
+	<tabTrigger>pdbp</tabTrigger>
 	<scope>source.js</scope>
-	<description>put into database</description>
+	<description>PouchDB Put</description>
 </snippet>

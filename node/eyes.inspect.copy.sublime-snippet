@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+inspect( ${1:data}, "${1:data}" )
+clipboard.copy( "${1:data}: " + JSON.stringify( ${1:data}, true, 4 ) )
+]]></content>
+	<tabTrigger>copy</tabTrigger>
+	<scope>source.js</scope>
+	<description>copy eyes.inspect</description>
+</snippet>
