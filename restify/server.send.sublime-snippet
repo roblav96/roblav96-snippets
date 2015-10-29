@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-return server.resSend( res, ${1:data})$0
+return res.send( ${0:data} )
 ]]></content>
 	<tabTrigger>ress</tabTrigger>
 	<scope>source.js</scope>
