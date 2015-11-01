@@ -1,23 +1,19 @@
 <snippet>
     <content><![CDATA[
-server.db.${1:database}.find( {
+pdb.${1:database}.find( {
 	selector: {
-		${2:index}: {
-			$eq: ${3:data}
-		}
-	}
-}, function ( err, doc ) {
-	if ( err ) {
-		console.log( err )
-		return res.send( 400, err )
-	}
-
-	inspect( doc, "doc" )
-	$0
-	return res.send( false )
+		name: 'Mario'
+	},
+	fields: [ 'name' ]
+} ).then( function ( result ) {
+	inspect( result, "result" )
+	clipboard.copy( "result: " + JSON.stringify( result, true, 4 ) )
+} ).catch( function ( err ) {
+	console.error( err )
+	return res.send( 500 )
 } )
 ]]></content>
-	<tabTrigger>dbf</tabTrigger>
+	<tabTrigger>pdbf</tabTrigger>
 	<scope>source.js</scope>
-	<description>find in database</description>
+	<description>PouchDB Find</description>
 </snippet>

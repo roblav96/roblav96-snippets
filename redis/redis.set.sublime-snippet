@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+redis.set( '${1:key}', JSON.stringify( ${2:data} ) ).then( function ( doc ) {
+	$0
+} )
+]]></content>
+	<tabTrigger>rset</tabTrigger>
+	<scope>source.js</scope>
+	<description>redis set</description>
+</snippet>

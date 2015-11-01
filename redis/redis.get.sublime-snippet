@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+redis.get( '${1:key}' ).then( function ( doc ) {
+	doc = JSON.parse( doc )
+	inspect( doc, "doc" )
+	clipboard.copy( "doc: " + JSON.stringify( doc, true, 4 ) )
+	$0
+
+} )
+]]></content>
+	<tabTrigger>rget</tabTrigger>
+	<scope>source.js</scope>
+	<description>redis get</description>
+</snippet>

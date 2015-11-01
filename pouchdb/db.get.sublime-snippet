@@ -2,10 +2,10 @@
     <content><![CDATA[
 pdb.${1:database}.get( ${2:_id} ).then( function ( doc ) {
 	inspect( doc, "${2:_id}.doc" )
-	clipboard.copy( "doc: " + JSON.stringify( ${2:_id}, true, 4 ) )
+	clipboard.copy( "doc: " + JSON.stringify( doc, true, 4 ) )
 } ).catch( function ( err ) {
-	server.error = err
-	return server.resSend( res )
+	console.error( err.message )
+	return res.send( 500 )
 } )
 ]]></content>
 	<tabTrigger>pdbg</tabTrigger>
