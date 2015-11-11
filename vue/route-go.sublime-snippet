@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$router.go( {
+	name: '${1:state}'
+} )$0
+]]></content>
+	<tabTrigger>vrgo</tabTrigger>
+	<scope>source.js</scope>
+	<description>vue route go</description>
+</snippet>
