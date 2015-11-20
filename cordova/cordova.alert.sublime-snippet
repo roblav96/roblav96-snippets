@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+navigator.notification.alert( '${1:body}', null, '${2:title}', '${3:yes}' ] )$0
+]]></content>
+    <tabTrigger>coralert</tabTrigger>
+    <scope>source.js</scope>
+    <description>cordova alert dialog</description>
+</snippet>

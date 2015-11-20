@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+bind( this )$0
+]]></content>
+    <tabTrigger>bind</tabTrigger>
+    <scope>source.js</scope>
+    <description>bind this</description>
+</snippet>

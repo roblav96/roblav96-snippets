@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+navigator.notification.confirm( '${1:body}', function ( btnI ) {
+	$0
+}, '${2:title}', [ '${3:yes}', '${4:no}' ] )
+]]></content>
+    <tabTrigger>corconfirm</tabTrigger>
+    <scope>source.js</scope>
+    <description>cordova confirm dialog</description>
+</snippet>
