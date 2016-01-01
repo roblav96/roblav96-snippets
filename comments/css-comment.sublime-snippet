@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+/*
+	${0:Comment}
+*/
+]]></content>
+    <tabTrigger>com</tabTrigger>
+    <description>CSS Comment</description>
+    <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>
