@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+window.plugins.toast.showLongBottom( '${1:msg}' )${0}
+]]></content>
+    <tabTrigger>cortoastbottom</tabTrigger>
+    <scope>source.js</scope>
+    <description>cordova toast bottom</description>
+</snippet>

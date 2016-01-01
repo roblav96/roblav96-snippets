@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[run().then( function ( doc ) {
 	inspect( doc, "doc" )
-} ).error( function ( err ) {
-	console.error( err.message )
-	return res.send( 500, err.message )
+	$0
+} ).catch( function ( err ) {
+	return next( new restify.errors.InternalServerError( err ) )
 } )
 ]]></content>
 	<tabTrigger>run</tabTrigger>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+navigator.notification.prompt( '${1:body}', function ( result ) {
+	var res = result.input1
+	var btnI = result.buttonIndex
+	if ( btnI != 1 || res == "" ) {
+		return
+	}
+	${0}
+}, '${2:title}', [ '${3:submit}', '${4:cancel}' ], '${5:prefill}' )
+]]></content>
+    <tabTrigger>corprompt</tabTrigger>
+    <scope>source.js</scope>
+    <description>cordova prompt dialog</description>
+</snippet>

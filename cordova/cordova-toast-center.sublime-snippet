@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+window.plugins.toast.showLongCenter( '${1:msg}' )${0}
+]]></content>
+    <tabTrigger>cortoastcenter</tabTrigger>
+    <scope>source.js</scope>
+    <description>cordova toast center</description>
+</snippet>

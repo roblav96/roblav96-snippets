@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-console.info( '' )
-inspect( ${1:data}, "${1:label}" )
+console.info( '${1:label} >' )
+inspect( ${1:data} )$0
 ]]></content>
 	<tabTrigger>insp</tabTrigger>
 	<scope>source.js</scope>
