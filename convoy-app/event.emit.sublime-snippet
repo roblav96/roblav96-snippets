@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_\$events.emit( '$0' )
+]]></content>
+    <tabTrigger>evtemit</tabTrigger>
+    <scope>source.js</scope>
+    <description>_$events.emit</description>
+</snippet>

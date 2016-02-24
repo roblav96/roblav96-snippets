@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_\$map.map$0
+]]></content>
+    <tabTrigger>mapmap</tabTrigger>
+    <scope>source.js</scope>
+    <description>_$map.map</description>
+</snippet>

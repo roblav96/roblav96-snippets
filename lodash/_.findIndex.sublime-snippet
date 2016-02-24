@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+var index = _.findIndex( $1, function ( v ) {
+	return v.$3 == $0
+}$2 )
+]]></content>
+    <tabTrigger>_findIndex</tabTrigger>
+    <scope>source.js</scope>
+    <description>_.findIndex()</description>
+</snippet>
