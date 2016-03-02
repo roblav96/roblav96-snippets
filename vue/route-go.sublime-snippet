@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-\$router.go( {
-	name: '${1:state}'
+this.\$route.router.go( {
+	name: '$1'$2
 } )$0
 ]]></content>
-	<tabTrigger>vrgo</tabTrigger>
+	<tabTrigger>route</tabTrigger>
 	<scope>source.js</scope>
-	<description>vue route go</description>
+	<description>this.$route.router.go</description>
 </snippet>

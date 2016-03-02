@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+this.\$root.\$http_get( '$1' ).bind( this ).then( function ( response ) {
+	$0
+} ).catch( function ( err ) {
+	console.error( err )
+} )
+]]></content>
+	<tabTrigger>httpget</tabTrigger>
+	<scope>source.js</scope>
+	<description>this.$root.$http_get</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+this.\$root.\$http_post( '$1', $2 ).bind( this ).then( function ( response ) {
+	$0
+} ).catch( function ( err ) {
+	console.error( err )
+} )
+]]></content>
+	<tabTrigger>httppost</tabTrigger>
+	<scope>source.js</scope>
+	<description>this.$root.$http_post</description>
+</snippet>
