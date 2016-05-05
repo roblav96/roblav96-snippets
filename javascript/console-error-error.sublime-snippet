@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.error( clc.bold.redBright( ${1:err} ) )$0
+]]></content>
+	<tabTrigger>clee</tabTrigger>
+	<scope>source.js</scope>
+	<description>console.error.error</description>
+</snippet>
