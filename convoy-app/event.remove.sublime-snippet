@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-_\$events.removeAllListeners( '$0' )
-]]></content>
-    <tabTrigger>evtrem</tabTrigger>
-    <scope>source.js</scope>
-    <description>_$events.removeAllListeners</description>
-</snippet>

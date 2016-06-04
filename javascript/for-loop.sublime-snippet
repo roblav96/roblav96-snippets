@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var i, len = ${1:array}.length
+let i, len = ${1:array}.length
 for ( i = 0; i < len; i++ ) {
 	$0
 }

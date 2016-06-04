@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+import {
+	$1,
+} from '${2:../../../}'$0
+]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.js</scope>
+    <description>Import Module</description>
+</snippet>
