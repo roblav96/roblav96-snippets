@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.error( pe.render( err ) )$0
+]]></content>
+	<tabTrigger>per</tabTrigger>
+	<scope>source.js</scope>
+	<description>pe.render</description>
+</snippet>
