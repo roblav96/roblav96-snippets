@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+global.tnsconsole.dump('${1:title}', ${1:var})$0
+]]></content>
+	<tabTrigger>cld</tabTrigger>
+	<scope>source.ts</scope>
+	<description>console.log</description>
+</snippet>
