@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+global.tnsconsole.error('error', error)$0
+]]></content>
+	<tabTrigger>cle</tabTrigger>
+	<scope>source.ts</scope>
+	<description>console.error</description>
+</snippet>
