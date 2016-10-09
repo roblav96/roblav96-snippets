@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+global.tnsconsole.keys('${1:title}', ${1:var})$0
+]]></content>
+	<tabTrigger>clk</tabTrigger>
+	<scope>source.ts</scope>
+	<description>console.keys</description>
+</snippet>
