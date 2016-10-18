@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+console.info('${1:label} >')
+eyes.inspect(${1:data})
+$0
+]]></content>
+	<tabTrigger>inspect</tabTrigger>
+	<scope>source.ts</scope>
+	<description>eyes.inspect</description>
+</snippet>

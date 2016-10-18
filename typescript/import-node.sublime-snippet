@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import $2 = require('$1')$0
+]]></content>
+	<tabTrigger>importrequire</tabTrigger>
+	<scope>source.ts</scope>
+	<description>import X = require("")</description>
+</snippet>
