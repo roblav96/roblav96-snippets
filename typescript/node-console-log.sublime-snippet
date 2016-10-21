@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.log('${1:title}', ${1:var})$0
+]]></content>
+	<tabTrigger>cln</tabTrigger>
+	<scope>source.ts</scope>
+	<description>node console.log</description>
+</snippet>

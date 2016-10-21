@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.error('error', utils.peRender(error))$0
+]]></content>
+	<tabTrigger>clen</tabTrigger>
+	<scope>source.ts</scope>
+	<description>node console.error</description>
+</snippet>
