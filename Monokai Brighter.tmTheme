@@ -384,7 +384,7 @@
 		</dict>
 		
 		<!--  -->
-		<dict>
+<!-- 		<dict>
 			<key>name</key>
 			<string>Period</string>
 			<key>scope</key>
@@ -394,7 +394,7 @@
 				<key>foreground</key>
 				<string>#F92672</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>This</string>
