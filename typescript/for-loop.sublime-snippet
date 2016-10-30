@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 let i: number, len: number = ${1:array}.length
-for ( i = 0; i < len; i++ ) {
+for (i = 0; i < len; i++) {
 	$0
 }
 ]]></content>

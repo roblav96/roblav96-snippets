@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+let i: string, obj: any = ${1:object}
+for (i in obj) {
+	$0
+}
+]]></content>
+    <tabTrigger>forin</tabTrigger>
+    <scope>source.ts</scope>
+    <description>for in object loop</description>
+</snippet>
