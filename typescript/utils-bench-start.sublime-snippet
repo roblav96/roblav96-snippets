@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Utils.benchStart('${1:id}')$0
+]]></content>
+	<tabTrigger>bstart</tabTrigger>
+	<scope>source.ts</scope>
+	<description>Utils.benchStart</description>
+</snippet>

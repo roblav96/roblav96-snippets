@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Utils.benchPing('${1:id}', '${2:name}')$0
+]]></content>
+	<tabTrigger>bping</tabTrigger>
+	<scope>source.ts</scope>
+	<description>Utils.benchPing</description>
+</snippet>
