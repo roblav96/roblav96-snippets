@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-global.tnsconsole.info('${1}')$0
+console.info('$1')$0
 ]]></content>
 	<tabTrigger>cll</tabTrigger>
 	<scope>source.ts</scope>
-	<description>console.log.log</description>
+	<description>console.info</description>
 </snippet>
