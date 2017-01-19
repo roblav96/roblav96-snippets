@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+declare global {
+	export interface $1 {
+		$0
+	}
+}
+]]></content>
+    <tabTrigger>ginterface</tabTrigger>
+    <scope>source.ts</scope>
+    <description>declare global interface</description>
+</snippet>
