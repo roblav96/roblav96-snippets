@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+declare global {
+
+	$0
+
+}
+]]></content>
+    <tabTrigger>dglobal</tabTrigger>
+    <scope>source.ts</scope>
+    <description>declare global</description>
+</snippet>
