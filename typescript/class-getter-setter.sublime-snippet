@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+private _$1 = $2
+get $1() {
+	return this._$1
+}
+set $1($1) {
+	this._$1 = $1
+	this.notifyPropertyChange('$1', $1)
+}$0
+]]></content>
+    <tabTrigger>clgsetter</tabTrigger>
+    <scope>source.ts</scope>
+    <description>class getter setter</description>
+</snippet>
