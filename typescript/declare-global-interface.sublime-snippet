@@ -8,7 +8,7 @@ declare global {
 
 }
 ]]></content>
-    <tabTrigger>dginterface</tabTrigger>
+    <tabTrigger>dglobalinterface</tabTrigger>
     <scope>source.ts</scope>
     <description>declare global interface</description>
 </snippet>
