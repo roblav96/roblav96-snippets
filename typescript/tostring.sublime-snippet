@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+toString()$0
+]]></content>
+    <tabTrigger>tostring</tabTrigger>
+    <scope>source.ts</scope>
+    <description>toString()</description>
+</snippet>
