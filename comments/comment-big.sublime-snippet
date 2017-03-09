@@ -2,7 +2,8 @@
 	<content><![CDATA[
 /*========================${1/./=/g}
 =            ${1:string}            =
-========================${1/./=/g}*/$0
+========================${1/./=/g}*/
+$0
 ]]></content>
 	<tabTrigger>comb</tabTrigger>
 	<description>big comment</description>
