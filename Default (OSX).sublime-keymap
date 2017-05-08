@@ -1,0 +1,69 @@
+[{
+	"keys": ["control+tab"],
+	"command": "toggle_side_bar"
+}, {
+	"keys": ["super+left"],
+	"command": "jump_back"
+}, {
+	"keys": ["super+right"],
+	"command": "jump_forward"
+}, {
+	"keys": ["super+shift+x"],
+	"command": "typescript_format_document",
+	"context": [{
+		"key": "selection_empty",
+		"operator": "equal",
+		"operand": true,
+		"match_all": true
+	}, {
+		"key": "num_selections",
+		"operator": "equal",
+		"operand": 1,
+		"match_all": true
+	}, {
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}, {
+	"keys": ["f7"],
+	"command": "typescript_project_error_list",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}, {
+	"keys": ["f8"],
+	"command": "typescript_find_references",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}, {
+	"keys": ["f9"],
+	"command": "typescript_signature_panel",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}, {
+	"keys": ["f10"],
+	"command": "typescript_signature_popup",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}, {
+	"keys": ["f11"],
+	"command": "typescript_quick_info_doc",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.ts, source.tsx"
+	}]
+}]
+
