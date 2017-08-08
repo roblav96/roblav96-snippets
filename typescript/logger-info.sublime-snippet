@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+logger.log('$1')$0
+]]></content>
+	<tabTrigger>lcll</tabTrigger>
+	<scope>source.ts</scope>
+	<description>logger.info</description>
+</snippet>

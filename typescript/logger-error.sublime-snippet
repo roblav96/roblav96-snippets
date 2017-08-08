@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+logger.error('error', error)$0
+]]></content>
+	<tabTrigger>lcle</tabTrigger>
+	<scope>source.ts</scope>
+	<description>logger.error</description>
+</snippet>
