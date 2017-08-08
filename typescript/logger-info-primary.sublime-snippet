@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+logger.primary('$1')$0
+]]></content>
+	<tabTrigger>lcllp</tabTrigger>
+	<scope>source.ts</scope>
+	<description>logger.info.primary</description>
+</snippet>
