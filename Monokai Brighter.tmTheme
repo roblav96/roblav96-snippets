@@ -382,19 +382,6 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
-		
-		<!--  -->
-<!-- 		<dict>
-			<key>name</key>
-			<string>Period</string>
-			<key>scope</key>
-			<string>punctuation.accessor</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>This</string>
@@ -428,7 +415,20 @@
 				<string>#F92672</string>
 			</dict>
 		</dict>
-<!-- 		<dict>
+		
+		<!--  -->
+		<dict>
+			<key>name</key>
+			<string>Period</string>
+			<key>scope</key>
+			<string>punctuation.accessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Support Variable</string>
 			<key>scope</key>
@@ -438,7 +438,7 @@
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
-		</dict> -->
+		</dict>
 		<!--  -->
 
 	</array>
