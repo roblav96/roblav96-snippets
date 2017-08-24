@@ -1,9 +1,7 @@
 <snippet>
 	<content><![CDATA[
-/**
-▶ $1
-*/$0
+/** ▶ $1 */$0
 ]]></content>
 	<tabTrigger>comtsdoc</tabTrigger>
-	<description>Typescript Doc Comment</description>
+	<description>Typescript Documentation Comment</description>
 </snippet>
