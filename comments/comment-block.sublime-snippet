@@ -2,10 +2,9 @@
 	<content><![CDATA[
 /**
  *
- * ${1:Block comment}
+ * $1
  *
- */
-
+ */$0
 ]]></content>
 	<tabTrigger>comm-block</tabTrigger>
 	<description>Comment - Block style comment</description>
