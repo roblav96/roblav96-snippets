@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+return Promise.resolve().then(function() {
+	$0
+})
+]]></content>
+    <tabTrigger>rpromresolve</tabTrigger>
+    <scope>source.ts</scope>
+    <description>return Promise.resolve()</description>
+</snippet>

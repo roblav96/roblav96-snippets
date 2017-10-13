@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+return robinhood.getAllSymbols()
+}).then(function(symbols) {
+	$0
+
+]]></content>
+    <tabTrigger>allsymbols</tabTrigger>
+    <scope>source.ts</scope>
+    <description>getAllSymbols()</description>
+</snippet>
