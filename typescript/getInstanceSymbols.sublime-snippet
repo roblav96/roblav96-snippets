@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
 return robinhood.getInstanceSymbols()
+
 }).then(function(symbols) {
 	$0
 
 ]]></content>
     <tabTrigger>getInstanceSymbols</tabTrigger>
     <scope>source.ts</scope>
-    <description>getInstanceSymbols()</description>
+    <description>getInstanceSymbols</description>
 </snippet>

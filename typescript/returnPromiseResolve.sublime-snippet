@@ -4,7 +4,7 @@ return Promise.resolve().then(function() {
 	$0
 })
 ]]></content>
-    <tabTrigger>rpromresolve</tabTrigger>
+    <tabTrigger>returnPromiseResolve</tabTrigger>
     <scope>source.ts</scope>
-    <description>return Promise.resolve()</description>
+    <description>returnPromiseResolve</description>
 </snippet>
