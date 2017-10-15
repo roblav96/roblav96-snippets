@@ -8,5 +8,5 @@ return robinhood.getAllSymbols()
 ]]></content>
     <tabTrigger>getAllSymbols</tabTrigger>
     <scope>source.ts</scope>
-    <description>getAllSymbols()</description>
+    <description>getAllSymbols</description>
 </snippet>
