@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-logger.error('error', error)$0
+logger.error('error', utils.peRender(error))$0
 ]]></content>
 	<tabTrigger>lcle</tabTrigger>
 	<scope>source.ts</scope>
