@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.error('error', error)$0
+console.error('$2 > error', ${1:errors.render(error)})$0
 ]]></content>
 	<tabTrigger>cle</tabTrigger>
 	<scope>source.ts</scope>
