@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+process.clipboard('$1', $1)$0
+]]></content>
+	<tabTrigger>clipboard</tabTrigger>
+	<scope>source.ts</scope>
+	<description>process.clipboard</description>
+</snippet>
